@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.2.1",
+    "mongodb": "^3.4.1",
+    "qs": "^6.9.1"
+  },
+  "scripts": {
+    "test": "node ./shop/initData.js",
+    "start": "nodemon ./shop/app.js"
+  }
+}
